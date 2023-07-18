@@ -215,6 +215,7 @@ nav ul li{
 }
 .part2{
   display: flex;
+  justify-content: space-between;
 }
 .a-part{
   font-size: 20px;
@@ -323,6 +324,69 @@ footer ol li,.copy-right{
   }
   .hours-img{
     height: 400px;
+    width: 75%;
+  }
+  .play-img{
+    width: 100%;
+  }
+  .cat-img{
+    top: 320px;
+    left: 50px;
+  }
+  .careers{
+    flex-direction: column;
+    padding: 20px;
+  }
+  .career-text{
+    width: 100%;
+  }
+  .career-img{
+    width: 100%;
+  }
+}
+@media screen and (max-width:992px) {
+  nav{
+    flex-direction: column;
+  }
+  nav ul{
+    flex-direction: column;
+  }
+  nav ul li{
+    margin: 10px 0;
+  }
+  .follow{
+    margin-top: 10px;
+  }
+  .banner{
+    flex-direction: column-reverse;
+    margin: 0 5%;
+  }
+  .banner-text,.gamer-text{
+    margin-top: 10px;
+    width: 100%;
+  }
+  .banner-img,.gamer-img{
+    width: 100%;
+  }
+  .gamer-section{
+    flex-direction: column;
+    margin: 0 5%;
+  }
+  .gamer-text{
+    text-align: center;
+  }
+  .video{
+    width: 350px;
+  }
+  .play-section{
+    flex-direction: column;
+  }
+  .play-text{
+    width: 100%;
+    text-align: center;
+  }
+  .hours-img{
+    height: 500px;
     width: 75%;
   }
   .play-img{
