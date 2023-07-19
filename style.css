@@ -5,6 +5,7 @@
   font-family: Work Sans;
   list-style: none;
 }
+/* nav style start */
 nav{
   display: flex;
   justify-content: space-around;
@@ -52,6 +53,8 @@ nav ul li{
   height: 24px;
   margin-right: 10px;
 }
+
+/* banner style start */
 .banner{
   display: flex;
 }
@@ -102,6 +105,7 @@ nav ul li{
 .banner-img{
   width: 47%;
 }
+/* gamer-section style start */
 .gamer-section{
   display: flex;
   align-items: center;
@@ -140,6 +144,7 @@ nav ul li{
   font-size: 24px;
   line-height: 45px;
 }
+/* video-section style start */
 .video-section{
   text-align: center;
   margin: 50px 4%;
@@ -185,6 +190,8 @@ nav ul li{
   margin: 0 0 10px 0;
   line-height: 30px;
 }
+
+/* play-section style start */
 .play-section{
   display: flex;
   align-items: center;
@@ -209,6 +216,7 @@ nav ul li{
   position: relative;
   bottom: 100px;
 }
+/* career-section style start */
 .careers{
   display: flex;
   color: white;
@@ -242,6 +250,8 @@ nav ul li{
   line-height: 40px;
   text-align: right;
 }
+
+/* games-section style start */
 .games{
   display: flex;
   justify-content: center;
@@ -265,6 +275,8 @@ nav ul li{
   height: 60px;
   border-radius: 50%;
 }
+
+/* footer-section style start */
 footer{
   background-color: #0B0223;
   color: #FFF;
